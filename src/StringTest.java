@@ -24,6 +24,8 @@ public class StringTest {
 			+ "and burning with curiosity, she ran across the field after it, "
 			+ "and fortunately was just in time to see it pop down a large "
 			+ "rabbit-hole under the hedge."; 
+
+
 	public static void main(String[] args) {
 		String[] words = text.split("[^a-zA-Z\\-]+");	//単語ごとに分割して配列に格納
 		//System.out.println(Arrays.asList(words));	//デバッグコード．配列の中身が気になったら有効化してみるといい
